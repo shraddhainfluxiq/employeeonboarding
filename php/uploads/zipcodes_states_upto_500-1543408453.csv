@@ -1,0 +1,500 @@
+zip_code,latitude,longitude,city,state,country
+501,40.922326,-72.637078,Holtsville,NY,Suffolk
+544,40.922326,-72.637078,Holtsville,NY,Suffolk
+601,18.165273,-66.722583,Adjuntas,PR,Adjuntas
+602,18.393103,-67.180953,Aguada,PR,Aguada
+603,18.455913,-67.14578,Aguadilla,PR,Aguadilla
+604,18.49352,-67.135883,Aguadilla,PR,Aguadilla
+605,18.465162,-67.141486,Aguadilla,PR,Aguadilla
+606,18.172947,-66.944111,Maricao,PR,Maricao
+610,18.288685,-67.139696,Anasco,PR,Anasco
+611,18.279531,-66.80217,Angeles,PR,Utuado
+612,18.450674,-66.698262,Arecibo,PR,Arecibo
+613,18.458093,-66.732732,Arecibo,PR,Arecibo
+614,18.429675,-66.674506,Arecibo,PR,Arecibo
+616,18.444792,-66.640678,Bajadero,PR,Arecibo
+617,18.447092,-66.544255,Barceloneta,PR,Barceloneta
+622,17.998531,-67.187318,Boqueron,PR,Cabo Rojo
+623,18.062201,-67.149541,Cabo Rojo,PR,Cabo Rojo
+624,18.023535,-66.726156,Penuelas,PR,Penuelas
+627,18.477891,-66.85477,Camuy,PR,Camuy
+631,18.269187,-66.864993,Castaner,PR,Lares
+636,18.113284,-67.039706,Rosario,PR,San German
+637,18.087322,-66.934911,Sabana Grande,PR,Sabana Grande
+638,18.33616,-66.472087,Ciales,PR,Ciales
+641,18.250027,-66.698957,Utuado,PR,Utuado
+646,18.43606,-66.281954,Dorado,PR,Dorado
+647,17.969594,-66.939754,Ensenada,PR,Guanica
+650,18.360125,-66.562311,Florida,PR,Florida
+652,18.457254,-66.603358,Garrochales,PR,Arecibo
+653,17.972468,-66.898661,Guanica,PR,Guanica
+656,18.02328,-66.786909,Guayanilla,PR,Guayanilla
+659,18.481391,-66.808696,Hatillo,PR,Hatillo
+660,18.145486,-67.135323,Hormigueros,PR,Hormigueros
+662,18.480285,-67.028155,Isabela,PR,Isabela
+664,18.217606,-66.598306,Jayuya,PR,Jayuya
+667,18.015099,-67.055973,Lajas,PR,Lajas
+669,18.295952,-66.881925,Lares,PR,Lares
+670,18.252135,-66.990967,Las Marias,PR,Las Marias
+674,18.44553,-66.490268,Manati,PR,Manati
+676,18.383727,-67.080799,Moca,PR,Moca
+677,18.335781,-67.252547,Rincon,PR,Rincon
+678,18.45303,-66.933689,Quebradillas,PR,Quebradillas
+680,18.219023,-67.508068,Mayaguez,PR,Mayaguez
+681,18.219023,-67.508068,Mayaguez,PR,Mayaguez
+682,18.219023,-67.508068,Mayaguez,PR,Mayaguez
+683,18.113284,-67.039706,San German,PR,San German
+685,18.3236,-66.972227,San Sebastian,PR,San Sebastian
+687,18.316976,-66.415207,Morovis,PR,Morovis
+688,18.429675,-66.674506,Sabana Hoyos,PR,Arecibo
+690,18.476196,-67.139597,San Antonio,PR,Aguadilla
+692,18.435818,-66.338523,Vega Alta,PR,Vega Alta
+693,18.443109,-66.398302,Vega Baja,PR,Vega Baja
+694,18.443109,-66.398302,Vega Baja,PR,Vega Baja
+698,18.06104,-66.861164,Yauco,PR,Yauco
+703,18.250398,-66.12845,Aguas Buenas,PR,Aguas Buenas
+704,17.99229,-66.139253,Aguirre,PR,Guayama
+705,18.128092,-66.268717,Aibonito,PR,Aibonito
+707,18.007014,-65.898719,Maunabo,PR,Maunabo
+714,17.96751,-66.04138,Arroyo,PR,Arroyo
+715,18.011854,-66.563721,Mercedita,PR,Ponce
+716,18.001995,-66.607429,Ponce,PR,Ponce
+717,18.001995,-66.607429,Ponce,PR,Ponce
+718,18.22139,-65.77831,Naguabo,PR,Naguabo
+719,18.298017,-66.229751,Naranjito,PR,Naranjito
+720,18.226862,-66.39402,Orocovis,PR,Orocovis
+721,18.364161,-65.778288,Palmer,PR,Rio Grande
+723,18.009994,-66.010572,Patillas,PR,Patillas
+725,18.212965,-66.058033,Caguas,PR,Caguas
+726,18.212965,-66.058033,Caguas,PR,Caguas
+727,18.212965,-66.058033,Caguas,PR,Caguas
+728,18.001995,-66.607429,Ponce,PR,Ponce
+729,18.333093,-65.883864,Canovanas,PR,Canovanas
+730,18.001995,-66.607429,Ponce,PR,Ponce
+731,18.03831,-66.626344,Ponce,PR,Ponce
+732,18.021781,-66.613742,Ponce,PR,Ponce
+733,18.019331,-66.619165,Ponce,PR,Ponce
+734,17.999499,-66.643934,Ponce,PR,Ponce
+735,18.264872,-65.594769,Ceiba,PR,Ceiba
+736,18.102967,-66.139274,Cayey,PR,Cayey
+737,18.102967,-66.139274,Cayey,PR,Cayey
+738,18.359381,-65.611361,Fajardo,PR,Fajardo
+739,18.181469,-66.169519,Cidra,PR,Cidra
+740,18.331958,-65.63878,Puerto Real,PR,Fajardo
+741,18.162156,-65.753485,Punta Santiago,PR,Humacao
+742,18.264872,-65.594769,Roosevelt Roads,PR,Ceiba
+744,18.206329,-65.743058,Rio Blanco,PR,Naguabo
+745,18.367347,-65.816583,Rio Grande,PR,Rio Grande
+751,17.99852,-66.264825,Salinas,PR,Salinas
+754,18.187584,-65.962389,San Lorenzo,PR,San Lorenzo
+757,17.991233,-66.395543,Santa Isabel,PR,Santa Isabel
+765,18.123347,-65.460356,Vieques,PR,Vieques
+766,18.120519,-66.496607,Villalba,PR,Villalba
+767,18.045522,-65.886988,Yabucoa,PR,Yabucoa
+769,18.095992,-66.35081,Coamo,PR,Coamo
+771,18.196576,-65.87197,Las Piedras,PR,Las Piedras
+772,18.447406,-65.899357,Loiza,PR,Loiza
+773,18.366027,-65.708138,Luquillo,PR,Luquillo
+775,18.323736,-65.296467,Culebra,PR,Culebra
+777,18.206489,-65.901774,Juncos,PR,Juncos
+778,18.259092,-65.974641,Gurabo,PR,Gurabo
+780,18.001995,-66.607429,Coto Laurel,PR,Ponce
+782,18.224958,-66.219885,Comerio,PR,Comerio
+783,18.304369,-66.330525,Corozal,PR,Corozal
+784,17.99229,-66.139253,Guayama,PR,Guayama
+785,18.018822,-66.795603,Guayama,PR,Guayanilla
+786,18.128092,-66.268717,La Plata,PR,Aibonito
+791,18.138029,-65.788499,Humacao,PR,Humacao
+792,18.138029,-65.788499,Humacao,PR,Humacao
+794,18.200898,-66.307236,Barranquitas,PR,Barranquitas
+795,17.997367,-66.493218,Juana Diaz,PR,Juana Diaz
+801,18.322285,-64.963715,St Thomas,VI,Saint Thomas
+802,18.322285,-64.963715,St Thomas,VI,Saint Thomas
+803,18.322285,-64.963715,St Thomas,VI,Saint Thomas
+804,18.322285,-64.963715,St Thomas,VI,Saint Thomas
+805,18.322285,-64.963715,St Thomas,VI,Saint Thomas
+820,17.734211,-64.734694,Christiansted,VI,Saint Croix
+821,17.734211,-64.734694,Christiansted,VI,Saint Croix
+822,17.734211,-64.734694,Christiansted,VI,Saint Croix
+823,17.734211,-64.734694,Christiansted,VI,Saint Croix
+824,17.734211,-64.734694,Christiansted,VI,Saint Croix
+830,18.32816,-64.740737,St John,VI,Saint John
+831,18.32816,-64.740737,St John,VI,Saint John
+840,17.734211,-64.734694,Frederiksted,VI,Saint Croix
+841,17.734211,-64.734694,Frederiksted,VI,Saint Croix
+850,17.734211,-64.734694,Kingshill,VI,Saint Croix
+851,17.734211,-64.734694,Kingshill,VI,Saint Croix
+901,18.465901,-66.103568,San Juan,PR,San Juan
+902,18.410462,-66.060533,San Juan,PR,San Juan
+906,18.410462,-66.060533,San Juan,PR,San Juan
+907,18.451647,-66.077003,San Juan,PR,San Juan
+908,18.410462,-66.060533,San Juan,PR,San Juan
+909,18.443384,-66.068133,San Juan,PR,San Juan
+910,18.410462,-66.060533,San Juan,PR,San Juan
+911,18.450828,-66.057859,San Juan,PR,San Juan
+912,18.444187,-66.059859,San Juan,PR,San Juan
+913,18.450735,-66.043352,San Juan,PR,San Juan
+914,18.410462,-66.060533,San Juan,PR,San Juan
+915,18.437896,-66.048087,San Juan,PR,San Juan
+916,18.410462,-66.060533,San Juan,PR,San Juan
+917,18.422018,-66.050602,San Juan,PR,San Juan
+918,18.419069,-66.062319,San Juan,PR,San Juan
+919,18.410462,-66.060533,San Juan,PR,San Juan
+920,18.406808,-66.091885,San Juan,PR,San Juan
+921,18.390429,-66.066124,San Juan,PR,San Juan
+922,18.410462,-66.060533,San Juan,PR,San Juan
+923,18.410775,-66.036708,San Juan,PR,San Juan
+924,18.396392,-66.01146,San Juan,PR,San Juan
+925,18.401055,-66.049773,San Juan,PR,San Juan
+926,18.369376,-66.062804,San Juan,PR,San Juan
+927,18.385174,-66.071959,San Juan,PR,San Juan
+928,18.410462,-66.060533,San Juan,PR,San Juan
+929,18.410462,-66.060533,San Juan,PR,San Juan
+930,18.410462,-66.060533,San Juan,PR,San Juan
+931,18.410462,-66.060533,San Juan,PR,San Juan
+933,18.410462,-66.060533,San Juan,PR,San Juan
+934,18.34487,-66.166014,Fort Buchanan,PR,Bayamon
+935,18.410462,-66.060533,San Juan,PR,San Juan
+936,18.410462,-66.060533,San Juan,PR,San Juan
+937,18.410462,-66.060533,San Juan,PR,San Juan
+938,18.410462,-66.060533,San Juan,PR,San Juan
+939,18.410462,-66.060533,San Juan,PR,San Juan
+940,18.410462,-66.060533,San Juan,PR,San Juan
+949,18.431911,-66.199692,Toa Baja,PR,Toa Baja
+950,18.457761,-66.196503,Toa Baja,PR,Toa Baja
+951,18.457761,-66.196503,Toa Baja,PR,Toa Baja
+952,18.457761,-66.196503,Sabana Seca,PR,Toa Baja
+953,18.356795,-66.25701,Toa Alta,PR,Toa Alta
+954,18.358939,-66.258108,Toa Alta,PR,Toa Alta
+955,18.410462,-66.060533,San Juan,PR,San Juan
+956,18.326702,-66.174176,Bayamon,PR,Bayamon
+957,18.366645,-66.183907,Bayamon,PR,Bayamon
+958,18.34487,-66.166014,Bayamon,PR,Bayamon
+959,18.387058,-66.159044,Bayamon,PR,Bayamon
+960,18.34487,-66.166014,Bayamon,PR,Bayamon
+961,18.413195,-66.168651,Bayamon,PR,Bayamon
+962,18.437644,-66.140407,Catano,PR,Catano
+963,18.443217,-66.139293,Catano,PR,Catano
+965,18.428784,-66.11539,Guaynabo,PR,Guaynabo
+966,18.396815,-66.114889,Guaynabo,PR,Guaynabo
+968,18.410462,-66.060533,Guaynabo,PR,San Juan
+969,18.362322,-66.113729,Guaynabo,PR,Guaynabo
+970,18.359143,-66.112295,Guaynabo,PR,Guaynabo
+971,18.30942,-66.113606,Guaynabo,PR,Guaynabo
+975,18.410462,-66.060533,San Juan,PR,San Juan
+976,18.338133,-65.989229,Trujillo Alto,PR,Trujillo Alto
+977,18.337004,-65.990099,Trujillo Alto,PR,Trujillo Alto
+978,18.337004,-65.990099,Saint Just Contract,PR,Trujillo Alto
+979,18.410462,-66.060533,Carolina,PR,San Juan
+981,18.410462,-66.060533,Carolina,PR,San Juan
+982,18.410462,-66.060533,Carolina,PR,San Juan
+983,18.413452,-65.977659,Carolina,PR,Carolina
+984,18.393355,-65.972495,Carolina,PR,Carolina
+985,18.345741,-65.93888,Carolina,PR,Carolina
+986,18.393355,-65.972495,Carolina,PR,Carolina
+987,18.373466,-65.959932,Carolina,PR,Carolina
+988,18.393355,-65.972495,Carolina,PR,Carolina
+1001,42.140549,-72.788661,Agawam,MA,Hampden
+1002,42.367092,-72.464571,Amherst,MA,Hampshire
+1003,42.369562,-72.63599,Amherst,MA,Hampshire
+1004,42.384494,-72.513183,Amherst,MA,Hampshire
+1005,42.32916,-72.139465,Barre,MA,Worcester
+1007,42.280267,-72.402056,Belchertown,MA,Hampshire
+1008,42.177833,-72.958359,Blandford,MA,Hampden
+1009,42.206092,-72.340486,Bondsville,MA,Hampden
+1010,42.108585,-72.20448,Brimfield,MA,Hampden
+1011,42.294259,-72.952776,Chester,MA,Hampden
+1012,42.392274,-72.825607,Chesterfield,MA,Hampshire
+1013,42.161492,-72.667341,Chicopee,MA,Hampden
+1014,42.170731,-72.604842,Chicopee,MA,Hampden
+1020,42.177492,-72.562563,Chicopee,MA,Hampden
+1021,42.170731,-72.604842,Chicopee,MA,Hampden
+1022,42.193392,-72.55436,Chicopee,MA,Hampden
+1026,42.428617,-72.909841,Cummington,MA,Hampshire
+1027,42.368303,-72.768839,Easthampton,MA,Hampshire
+1028,42.062009,-72.49874,East Longmeadow,MA,Hampden
+1029,42.190904,-73.051661,East Otis,MA,Berkshire
+1030,42.189335,-72.79774,Feeding Hills,MA,Hampden
+1031,42.352554,-72.205724,Gilbertville,MA,Worcester
+1032,42.443837,-72.819446,Goshen,MA,Hampshire
+1033,42.262285,-72.504086,Granby,MA,Hampshire
+1034,42.112748,-72.952003,Granville,MA,Hampden
+1035,42.356804,-72.576613,Hadley,MA,Hampshire
+1036,42.067614,-72.417507,Hampden,MA,Hampden
+1037,42.347856,-72.225251,Hardwick,MA,Worcester
+1038,42.387269,-72.643081,Hatfield,MA,Hampshire
+1039,42.35641,-72.682127,Haydenville,MA,Hampshire
+1040,42.198291,-72.64207,Holyoke,MA,Hampden
+1041,42.170731,-72.604842,Holyoke,MA,Hampden
+1050,42.313427,-72.903677,Huntington,MA,Hampshire
+1053,42.353838,-72.704385,Leeds,MA,Hampshire
+1054,42.474681,-72.467543,Leverett,MA,Franklin
+1056,42.173276,-72.627038,Ludlow,MA,Hampden
+1057,42.095323,-72.282063,Monson,MA,Hampden
+1059,42.369562,-72.63599,North Amherst,MA,Hampshire
+1060,42.415154,-72.76927,Northampton,MA,Hampshire
+1061,42.369562,-72.63599,Northampton,MA,Hampshire
+1062,42.328838,-72.845227,Florence,MA,Hampshire
+1063,42.317939,-72.640234,Northampton,MA,Hampshire
+1066,42.406697,-72.633901,North Hatfield,MA,Hampshire
+1068,42.346144,-72.058847,Oakham,MA,Worcester
+1069,42.176131,-72.31457,Palmer,MA,Hampden
+1070,42.448984,-72.958397,Plainfield,MA,Hampshire
+1071,42.177432,-72.864558,Russell,MA,Hampden
+1072,42.471562,-72.44017,Shutesbury,MA,Franklin
+1073,42.230008,-72.728463,Southampton,MA,Hampshire
+1074,42.375998,-72.149388,South Barre,MA,Worcester
+1075,42.24984,-72.58152,South Hadley,MA,Hampshire
+1077,42.066644,-72.541205,Southwick,MA,Hampden
+1079,42.192892,-72.329574,Thorndike,MA,Hampden
+1080,42.179805,-72.517813,Three Rivers,MA,Hampden
+1081,42.061948,-72.213598,Wales,MA,Hampden
+1082,42.377471,-72.548549,Ware,MA,Hampshire
+1083,42.204027,-72.199439,Warren,MA,Worcester
+1084,42.390303,-72.870857,West Chesterfield,MA,Hampshire
+1085,42.14869,-72.501887,Westfield,MA,Hampden
+1086,42.173428,-72.847964,Westfield,MA,Hampden
+1088,42.390583,-72.646894,West Hatfield,MA,Hampshire
+1089,42.125793,-72.645334,West Springfield,MA,Hampden
+1090,42.170731,-72.604842,West Springfield,MA,Hampden
+1092,42.202887,-72.229025,West Warren,MA,Worcester
+1093,42.442673,-72.652511,Whately,MA,Franklin
+1094,42.358201,-72.140846,Wheelwright,MA,Worcester
+1095,42.125974,-72.489988,Wilbraham,MA,Hampden
+1096,42.413069,-72.821653,Williamsburg,MA,Hampshire
+1097,42.161743,-72.845912,Woronoco,MA,Hampden
+1098,42.40494,-72.896133,Worthington,MA,Hampshire
+1101,42.170731,-72.604842,Springfield,MA,Hampden
+1102,42.170731,-72.604842,Springfield,MA,Hampden
+1103,42.103044,-72.590783,Springfield,MA,Hampden
+1104,42.128605,-72.567966,Springfield,MA,Hampden
+1105,42.099793,-72.577732,Springfield,MA,Hampden
+1106,42.049194,-72.567882,Longmeadow,MA,Hampden
+1107,42.126237,-72.586733,Springfield,MA,Hampden
+1108,42.080594,-72.558081,Springfield,MA,Hampden
+1109,42.119293,-72.548981,Springfield,MA,Hampden
+1111,42.170731,-72.604842,Springfield,MA,Hampden
+1114,42.170731,-72.604842,Springfield,MA,Hampden
+1115,42.102894,-72.591633,Springfield,MA,Hampden
+1116,42.170731,-72.604842,Longmeadow,MA,Hampden
+1118,42.093894,-72.523227,Springfield,MA,Hampden
+1119,42.124943,-72.526705,Springfield,MA,Hampden
+1128,42.094616,-72.487229,Springfield,MA,Hampden
+1129,42.124485,-72.489479,Springfield,MA,Hampden
+1133,42.170731,-72.604842,Springfield,MA,Hampden
+1138,42.170731,-72.604842,Springfield,MA,Hampden
+1139,42.170731,-72.604842,Springfield,MA,Hampden
+1144,42.101796,-72.59151,Springfield,MA,Hampden
+1151,42.150593,-72.51278,Indian Orchard,MA,Hampden
+1152,42.170731,-72.604842,Springfield,MA,Hampden
+1199,42.119943,-72.604983,Springfield,MA,Hampden
+1201,42.479475,-73.24807,Pittsfield,MA,Berkshire
+1202,42.3929,-73.228483,Pittsfield,MA,Berkshire
+1203,42.3929,-73.228483,Pittsfield,MA,Berkshire
+1220,42.385595,-73.172166,Adams,MA,Berkshire
+1222,42.185969,-73.318695,Ashley Falls,MA,Berkshire
+1223,42.3418,-73.103468,Becket,MA,Berkshire
+1224,42.3929,-73.228483,Berkshire,MA,Berkshire
+1225,42.482125,-73.127483,Cheshire,MA,Berkshire
+1226,42.470296,-73.08895,Dalton,MA,Berkshire
+1227,42.516145,-73.092852,Dalton,MA,Berkshire
+1229,42.279292,-73.343545,Glendale,MA,Berkshire
+1230,42.299392,-73.26665,Great Barrington,MA,Berkshire
+1235,42.29237,-73.22164,Hinsdale,MA,Berkshire
+1236,42.291299,-73.358798,Housatonic,MA,Berkshire
+1237,42.487569,-73.235048,Lanesboro,MA,Berkshire
+1238,42.369856,-73.267465,Lee,MA,Berkshire
+1240,42.459202,-73.219858,Lenox,MA,Berkshire
+1242,42.338594,-73.250891,Lenox Dale,MA,Berkshire
+1243,42.356088,-73.010448,Middlefield,MA,Hampshire
+1244,42.122827,-73.253983,Mill River,MA,Berkshire
+1245,42.18669,-73.206498,Monterey,MA,Berkshire
+1247,42.426974,-73.18632,North Adams,MA,Berkshire
+1252,42.198648,-73.446234,North Egremont,MA,Berkshire
+1253,42.213156,-73.090434,Otis,MA,Berkshire
+1254,42.233105,-73.238358,Richmond,MA,Berkshire
+1255,42.148975,-73.14861,Sandisfield,MA,Berkshire
+1256,42.367341,-73.128528,Savoy,MA,Berkshire
+1257,42.314564,-73.267694,Sheffield,MA,Berkshire
+1258,42.128075,-73.36089,South Egremont,MA,Berkshire
+1259,42.198712,-73.278543,Southfield,MA,Berkshire
+1260,42.286586,-73.313274,South Lee,MA,Berkshire
+1262,42.304604,-73.330001,Stockbridge,MA,Berkshire
+1263,42.3929,-73.228483,Stockbridge,MA,Berkshire
+1264,42.220001,-73.197865,Tyringham,MA,Berkshire
+1266,42.360482,-73.265354,West Stockbridge,MA,Berkshire
+1267,42.642075,-73.257699,Williamstown,MA,Berkshire
+1270,42.443726,-73.116127,Windsor,MA,Berkshire
+1301,42.601335,-72.623619,Greenfield,MA,Franklin
+1302,42.522178,-72.624164,Greenfield,MA,Franklin
+1330,42.562391,-72.738152,Ashfield,MA,Franklin
+1331,42.547302,-72.183903,Athol,MA,Worcester
+1337,42.62706,-72.642888,Bernardston,MA,Franklin
+1338,42.573832,-72.769487,Buckland,MA,Franklin
+1339,42.594252,-72.665507,Charlemont,MA,Franklin
+1340,42.681539,-72.822986,Colrain,MA,Franklin
+1341,42.590824,-72.70976,Conway,MA,Franklin
+1342,42.54723,-72.607679,Deerfield,MA,Franklin
+1343,42.642666,-72.986231,Drury,MA,Berkshire
+1344,42.627072,-72.553654,Erving,MA,Franklin
+1346,42.618011,-72.788896,Heath,MA,Franklin
+1347,42.556558,-72.518104,Lake Pleasant,MA,Franklin
+1349,42.621412,-72.705633,Turners Falls,MA,Franklin
+1350,42.721456,-72.976204,Monroe Bridge,MA,Franklin
+1351,42.548107,-72.48693,Montague,MA,Franklin
+1354,42.522178,-72.624164,Northfield,MA,Franklin
+1355,42.518718,-72.534371,New Salem,MA,Franklin
+1360,42.614152,-72.528209,Northfield,MA,Franklin
+1364,42.578325,-72.556589,Orange,MA,Franklin
+1366,42.459632,-72.182962,Petersham,MA,Worcester
+1367,42.683065,-72.715667,Rowe,MA,Franklin
+1368,42.672182,-72.196376,Royalston,MA,Worcester
+1369,42.522178,-72.624164,Shattuckville,MA,Franklin
+1370,42.588812,-72.758781,Shelburne Falls,MA,Franklin
+1373,42.464522,-72.682346,South Deerfield,MA,Franklin
+1375,42.565346,-72.70094,Sunderland,MA,Franklin
+1376,42.654878,-72.718123,Turners Falls,MA,Franklin
+1378,42.667059,-72.339655,Warwick,MA,Franklin
+1379,42.581007,-72.437179,Wendell,MA,Franklin
+1380,42.553431,-72.392694,Wendell Depot,MA,Franklin
+1420,42.583689,-71.816767,Fitchburg,MA,Worcester
+1430,42.654906,-71.920942,Ashburnham,MA,Worcester
+1431,42.446396,-71.459405,Ashby,MA,Middlesex
+1432,42.446396,-71.459405,Ayer,MA,Middlesex
+1436,42.601427,-72.083838,Baldwinville,MA,Worcester
+1438,42.551681,-72.029434,East Templeton,MA,Worcester
+1440,42.582529,-72.025884,Gardner,MA,Worcester
+1441,42.364807,-71.896868,Westminster,MA,Worcester
+1450,42.446396,-71.459405,Groton,MA,Middlesex
+1451,42.500187,-71.575864,Harvard,MA,Worcester
+1452,42.483895,-72.011516,Hubbardston,MA,Worcester
+1453,42.471316,-71.837509,Leominster,MA,Worcester
+1460,42.446396,-71.459405,Littleton,MA,Middlesex
+1462,42.583322,-71.752266,Lunenburg,MA,Worcester
+1463,42.446396,-71.459405,Pepperell,MA,Middlesex
+1464,42.446396,-71.459405,Shirley,MA,Middlesex
+1467,42.487056,-71.613078,Still River,MA,Worcester
+1468,42.555059,-72.072285,Templeton,MA,Worcester
+1469,42.446396,-71.459405,Townsend,MA,Middlesex
+1470,42.446396,-71.459405,Groton,MA,Middlesex
+1471,42.446396,-71.459405,Groton,MA,Middlesex
+1472,42.446396,-71.459405,West Groton,MA,Middlesex
+1473,42.549489,-71.913219,Westminster,MA,Worcester
+1474,42.446396,-71.459405,West Townsend,MA,Middlesex
+1475,42.661612,-72.047876,Winchendon,MA,Worcester
+1477,42.364807,-71.896868,Winchendon Springs,MA,Worcester
+1501,42.184835,-71.947184,Auburn,MA,Worcester
+1503,42.3129,-71.841656,Berlin,MA,Worcester
+1504,42.114078,-71.799785,Blackstone,MA,Worcester
+1505,42.300037,-71.943458,Boylston,MA,Worcester
+1506,42.19169,-72.105011,Brookfield,MA,Worcester
+1507,42.13277,-71.972627,Charlton,MA,Worcester
+1508,42.109748,-72.079455,Charlton City,MA,Worcester
+1509,42.364807,-71.896868,Charlton Depot,MA,Worcester
+1510,42.413972,-71.687523,Clinton,MA,Worcester
+1515,42.205311,-72.049907,East Brookfield,MA,Worcester
+1516,42.113076,-71.891139,Douglas,MA,Worcester
+1517,42.364807,-71.896868,East Princeton,MA,Worcester
+1518,42.106405,-72.114045,Fiskdale,MA,Worcester
+1519,42.203944,-71.682862,Grafton,MA,Worcester
+1520,42.336791,-71.845316,Holden,MA,Worcester
+1521,42.061063,-72.163991,Holland,MA,Hampden
+1522,42.264629,-71.795442,Jefferson,MA,Worcester
+1523,42.427188,-71.91177,Lancaster,MA,Worcester
+1524,42.238192,-72.012379,Leicester,MA,Worcester
+1525,42.364807,-71.896868,Linwood,MA,Worcester
+1526,42.364807,-71.896868,Manchaug,MA,Worcester
+1527,42.255642,-71.819961,Millbury,MA,Worcester
+1529,42.124662,-71.846943,Millville,MA,Worcester
+1531,42.320938,-72.128644,New Braintree,MA,Worcester
+1532,42.322118,-71.64282,Northborough,MA,Worcester
+1534,42.207191,-71.856807,Northbridge,MA,Worcester
+1535,42.275382,-72.089338,North Brookfield,MA,Worcester
+1536,42.407556,-71.860402,North Grafton,MA,Worcester
+1537,42.166241,-71.891052,North Oxford,MA,Worcester
+1538,42.364807,-71.896868,North Uxbridge,MA,Worcester
+1540,42.109223,-71.855444,Oxford,MA,Worcester
+1541,42.451926,-71.880057,Princeton,MA,Worcester
+1542,42.220085,-71.914361,Rochdale,MA,Worcester
+1543,42.383516,-71.95463,Rutland,MA,Worcester
+1545,42.286992,-71.715313,Shrewsbury,MA,Worcester
+1546,42.364807,-71.896868,Shrewsbury,MA,Worcester
+1550,42.129251,-72.031155,Southbridge,MA,Worcester
+1560,42.176544,-71.681912,South Grafton,MA,Worcester
+1561,42.443539,-71.686137,South Lancaster,MA,Worcester
+1562,42.254837,-72.065612,Spencer,MA,Worcester
+1564,42.366765,-71.939375,Sterling,MA,Worcester
+1566,42.10273,-72.080996,Sturbridge,MA,Worcester
+1568,42.175591,-71.603197,Upton,MA,Worcester
+1569,42.059736,-71.638438,Uxbridge,MA,Worcester
+1570,42.1351,-71.994169,Webster,MA,Worcester
+1571,42.059189,-71.937037,Dudley,MA,Worcester
+1580,42.364807,-71.896868,Westborough,MA,Worcester
+1581,42.255222,-71.845865,Westborough,MA,Worcester
+1582,42.364807,-71.896868,Westborough,MA,Worcester
+1583,42.362783,-71.781215,West Boylston,MA,Worcester
+1585,42.235638,-72.172523,West Brookfield,MA,Worcester
+1586,42.364807,-71.896868,West Millbury,MA,Worcester
+1588,42.166554,-71.899484,Whitinsville,MA,Worcester
+1590,42.126575,-71.755193,Sutton,MA,Worcester
+1601,42.265275,-71.879415,Worcester,MA,Worcester
+1602,42.274595,-71.846966,Worcester,MA,Worcester
+1603,42.245442,-71.839257,Worcester,MA,Worcester
+1604,42.247955,-71.76678,Worcester,MA,Worcester
+1605,42.288792,-71.796128,Worcester,MA,Worcester
+1606,42.311834,-71.794465,Worcester,MA,Worcester
+1607,42.226452,-71.792506,Worcester,MA,Worcester
+1608,42.293501,-71.925696,Worcester,MA,Worcester
+1609,42.282565,-71.827685,Worcester,MA,Worcester
+1610,42.246483,-71.808915,Worcester,MA,Worcester
+1611,42.239392,-71.878716,Cherry Valley,MA,Worcester
+1612,42.304675,-71.892875,Paxton,MA,Worcester
+1613,42.293316,-71.801971,Worcester,MA,Worcester
+1614,42.364807,-71.896868,Worcester,MA,Worcester
+1615,42.364807,-71.896868,Worcester,MA,Worcester
+1653,42.364807,-71.896868,Worcester,MA,Worcester
+1654,42.364807,-71.896868,Worcester,MA,Worcester
+1655,42.364807,-71.896868,Worcester,MA,Worcester
+1701,42.446396,-71.459405,Framingham,MA,Middlesex
+1702,42.446396,-71.459405,Framingham,MA,Middlesex
+1703,42.446396,-71.459405,Framingham,MA,Middlesex
+1704,42.446396,-71.459405,Framingham,MA,Middlesex
+1705,42.446396,-71.459405,Framingham,MA,Middlesex
+1718,42.446396,-71.459405,Village Of Nagog Woods,MA,Middlesex
+1719,42.446396,-71.459405,Boxborough,MA,Middlesex
+1720,42.446396,-71.459405,Acton,MA,Middlesex
+1721,42.446396,-71.459405,Ashland,MA,Middlesex
+1730,42.446396,-71.459405,Bedford,MA,Middlesex
+1731,42.446396,-71.459405,Hanscom Afb,MA,Middlesex
+1740,42.436043,-71.605916,Bolton,MA,Worcester
+1741,42.446396,-71.459405,Carlisle,MA,Middlesex
+1742,42.446396,-71.459405,Concord,MA,Middlesex
+1745,42.293442,-71.502762,Fayville,MA,Worcester
+1746,42.446396,-71.459405,Holliston,MA,Middlesex
+1747,42.127515,-71.533138,Hopedale,MA,Worcester
+1748,42.446396,-71.459405,Hopkinton,MA,Middlesex
+1749,42.446396,-71.459405,Hudson,MA,Middlesex
+1752,42.446396,-71.459405,Marlborough,MA,Middlesex
+1754,42.446396,-71.459405,Maynard,MA,Middlesex
+1756,42.100352,-71.546961,Mendon,MA,Worcester
+1757,42.147087,-71.528085,Milford,MA,Worcester
+1760,42.446396,-71.459405,Natick,MA,Middlesex
+1770,42.446396,-71.459405,Sherborn,MA,Middlesex
+1772,42.296842,-71.533229,Southborough,MA,Worcester
+1773,42.446396,-71.459405,Lincoln,MA,Middlesex
+1775,42.446396,-71.459405,Stow,MA,Middlesex
+1776,42.446396,-71.459405,Sudbury,MA,Middlesex
+1778,42.446396,-71.459405,Wayland,MA,Middlesex
+1784,42.446396,-71.459405,Woodville,MA,Middlesex
+1801,42.488595,-71.157271,Woburn,MA,Middlesex
+1803,42.504844,-71.201539,Burlington,MA,Middlesex
+1805,42.446396,-71.459405,Burlington,MA,Middlesex
+1806,42.446396,-71.459405,Woburn,MA,Middlesex
+1807,42.446396,-71.459405,Woburn,MA,Middlesex
+1808,42.446396,-71.459405,Woburn,MA,Middlesex
+1810,42.647991,-71.165685,Andover,MA,Essex
+1812,42.647191,-71.184202,Andover,MA,Essex
+1813,42.446396,-71.459405,Woburn,MA,Middlesex
+1815,42.446396,-71.459405,Woburn,MA,Middlesex
+1821,42.446396,-71.459405,Billerica,MA,Middlesex
+1822,42.446396,-71.459405,Billerica,MA,Middlesex

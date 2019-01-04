@@ -1,0 +1,65 @@
+<app-adminheader></app-adminheader>
+<div class="page-wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="content_header_block">
+        <ol class="breadcrumb">
+          <li><a ui-sref="dashboard"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+          <li><a ui-sref="dashboard"> Manage Onboarding category</a></li>
+          <li><a ui-sref="dashboard"> Edit Category</a></li>
+
+        </ol>
+        <div class="clearfix"></div>
+      </div>
+      <h1 class="page-header"><i class="fa fa-circle" aria-hidden="true"></i>  Manage Category</h1>
+
+      <div class="clearfix"></div>
+
+
+      <div class="admintable">
+        <h3> Edit Category</h3>
+        <div class="formsection">
+
+          <h6 class="form-grouptext"> All the fields marked "*" are required fields and must be filled.</h6>
+
+          <form  id="Add-employee" name="Add-employee" role="form" novalidate  [formGroup]="dataForm" (ngSubmit)="dosubmit(dataForm.value)">
+            <div class="box-body">
+
+
+              <div class="form-group">
+                <label > category Name<span>*</span> :</label>
+
+
+                <!--<input type="text" class="form-control" name="cname" placeholder="Company Name" [formControl]="dataForm.controls['companyname']">-->
+                <input type="text" class="form-control" name="c_id" placeholder="Category Name" [formControl]="dataForm.controls['catname']">
+                <span class="has-error" *ngIf ="dataForm.controls['catname'].touched && !dataForm.controls['catname'].valid">Company name is Required !</span>
+
+
+              </div>
+
+              <!--<div class="form-group">
+                <label >Company Logo<span>*</span> :</label>
+                <input type="file" class="form-control" placeholder="company logo" >
+              </div>-->
+              <div class="form-group">
+                <label >Description<span>*</span> :</label>
+
+                <textarea class="form-control2"  placeholder="Description..." [formControl]="dataForm.controls['description']"></textarea>
+                <span class="has-error" *ngIf="dataForm.controls['description'].touched && !dataForm.controls['description'].valid">Description Required!</span>
+
+                <div class="box-footer" style="background:none; height:auto; padding-bottom:0px; padding-top:0px;">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<app-adminfooter></app-adminfooter>

@@ -1,0 +1,123 @@
+<app-adminheader></app-adminheader>
+
+<div class="page-wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="content_header_block">
+        <ol class="breadcrumb">
+          <li><a ui-sref="dashboard"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+          <li><a href="javascript:void(0)" class="active">Manage Onboarding Category </a></li>
+
+        </ol>
+        <div class="clearfix"></div>
+      </div>
+      <h1 class="page-header"><i class="fa fa-circle" aria-hidden="true"></i>Manage OnboardingCategory</h1>
+
+      <div class="clearfix"></div>
+
+      <div class="content_header_block">
+        <div class="clearfix"></div>
+
+        <div class="newblock1">
+
+          <input type="text" name="search" ng-model="searchkey" class="search1" placeholder="Search Employee">
+
+          <a [routerLink]="['/addlessoncategory']" class="addfrinderbtn"> Add Category</a>
+
+          <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+
+
+
+
+      <div class="admintable">
+        <h3> Onboarding Category List</h3>
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+            <tr >
+              <th scope="col">Id</th>
+              <th scope="col">Category Name</th>
+              <th scope="col">Description</th>
+              <th scope="col">Company(s) Related</th>
+              <th scope="col">status</th>
+              <th scope="col">Added On</th>
+              <th scope="col">Lesson Status</th>
+              <th scope="col">Action</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let item of datalist; let i = index">
+              <td [routerLink]="['/editlessoncategory',item._id]">{{i+1}}</td>
+              <td [routerLink]="['/editlessoncategory',item._id]">{{item.catname}}</td>
+              <td [routerLink]="['/editlessoncategory',item._id]">{{item.description}}</td>
+              <td ><span *ngIf="item.companies != null ">{{item.companies.length}}</span>
+              <span (click)="getcomp(item.companies,templatecommon2)">View Companies</span>
+              </td>
+              <td [routerLink]="['/editlessoncategory',item._id]"><span *ngIf="item.status==1"> Inactive</span> <span *ngIf="item.status!=1"> Active</span></td>
+              <td [routerLink]="['/editlessoncategory',item._id]">
+                {{unixtodatetimeConverter(0,item.addedon)}}
+
+              </td>
+              <td>
+               <!-- &lt;!&ndash;<span class="center_span">{{item.empcomp.length}}</span>&ndash;&gt;-->
+                <span  class="addbtn" [routerLink]="['/lessonlist',item._id]">Manage Lesson</span>
+              </td>
+              <td ><span (click)="deletecategory(item._id,template2)"class="deletebtn">Delete</span>
+              </td>
+            </tr>
+
+            </tbody>
+          </table>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-adminfooter></app-adminfooter>
+<ng-template #template2>
+  <div class="modal-body modal-body3">
+    <h1>Do you want to delete?</h1>
+    <button type="button" class="btn btn-default" (click)="delete(selectedempid,templatecommon2)" >Yes</button>
+    <button type="button" class="btn btn-primary" (click)="decline()" >No</button>
+  </div>
+</ng-template>
+
+<ng-template #templatecommon2>
+  <div class="modal-body">
+    <h1>{{message}}</h1>
+
+  </div>
+</ng-template>
+
+
+<!--<ng-template #template1>
+  <div class="modal-body1">
+    <h1>Choose Your Company</h1>
+    <div class="modal-body2">
+      <select multiple="multiple"  [(ngModel)]="companyval">
+        <option value="">Select Companies</option>
+        <option [value]="company._id" *ngFor="let company of companylist">
+          {{company.companyname}}</option>
+
+
+      </select>
+    </div>
+    <button type="button" class="btn btn-default1" (click)="update(template1)">UPDATE</button>
+  </div>
+</ng-template>
+
+&lt;!&ndash;
+<ng-template #templatecommon1>
+  <div class="modal-body">
+    <h1>{{message}}</h1>
+
+  </div>
+</ng-template>&ndash;&gt;
+&ndash;&gt;-->

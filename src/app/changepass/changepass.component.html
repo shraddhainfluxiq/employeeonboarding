@@ -1,0 +1,35 @@
+
+
+
+
+
+<div class="login_body">
+
+  <div class="login_wrapper">
+
+    <img src="assets/images/logo.png"  alt="#"  class="loginlogo"/>
+    <div class="login_contain">
+      <h2><span>Change Password</span></h2>
+      <form name="formLogin" method="post" action="login" novalidate [formGroup]="dataForm" (ngSubmit)="dosubmit(dataForm.value)">
+        <div class="form-group">
+          <label> Email:</label>
+          <input type="text" name="email" placeholder="Please enter your email" [formControl]="dataForm.controls['email']">
+          <span *ngIf ="dataForm.controls['email'].touched && getemail('blank')==true">Emailid is Required !</span>
+          <span *ngIf ="dataForm.controls['email'].touched && getemail('invalid')==true">Invalid Emailid!</span>
+
+        </div>
+
+
+
+
+        <input type="button"  value="Submit" class="loginsubmit">
+        <div class="clearfix"></div>
+
+
+
+      </form>
+
+    </div>
+  </div>
+
+</div>

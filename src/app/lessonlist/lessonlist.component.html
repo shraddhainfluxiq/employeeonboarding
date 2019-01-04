@@ -1,0 +1,255 @@
+<app-adminheader></app-adminheader>
+
+<div class="page-wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="content_header_block">
+        <ol class="breadcrumb">
+          <li><a ui-sref="dashboard"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+          <li><a href="javascript:void(0)" class="active">Manage Lesson </a></li>
+
+        </ol>
+        <div class="clearfix"></div>
+      </div>
+      <h1 class="page-header"><i class="fa fa-circle" aria-hidden="true"></i> Manage Lesson</h1>
+
+      <div class="clearfix"></div>
+
+      <div class="content_header_block">
+        <div class="clearfix"></div>
+
+        <div class="newblock1">
+
+          <input type="text" name="search" ng-model="searchkey" class="search1" placeholder="Search Admin">
+
+          <a [routerLink]="['/addlesson']" class="addfrinderbtn"> Add Lesson</a>
+          <a [routerLink]="['/alllessonlist']" class="addfrinderbtn">  All lesson-list</a>
+
+          <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+
+
+
+
+      <div class="admintable">
+        <h3> Manage Lesson List</h3>
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+            <tr >
+              <th scope="col">Id</th>
+              <th scope="col">Lesson Name</th>
+              <th scope="col">Lesson Type</th>
+              <th scope="col">Manage Files</th>
+              <th scope="col">Description</th>
+              <th scope="col">Lesson Category </th>
+              <th scope="col">Status</th>
+              <th scope="col">Action.</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let item of datalist; let i = index">
+              <td [routerLink]="['/editlesson',item._id]">{{i+1}}</td>
+              <td [routerLink]="['/editlesson',item._id]">{{item.lename}}</td>
+              <td [routerLink]="['/addlesson',item._id]">{{item.letype}}</td>
+              <td >
+                <span class="managebtn" *ngIf="item.letype!='Text/Html'" (click)="managevideo(item,template3)">Manage Files</span>
+                <span class="managebtn" *ngIf="item.letype=='Text/Html'" (click)="managecontent(item,template4)">Manage Content</span>
+              </td>
+              <td [routerLink]="['/addlesson',item._id]">{{item.description}}</td>
+              <td [routerLink]="['/addlesson',item._id]">{{showcatname(item.categories)}}</td>
+              <td [routerLink]="['/addlesson',item._id]"><span *ngIf="item.status==1" >Active</span><span *ngIf="item.status!=1" >Inactive</span></td>
+
+              <td (click)="deletelesson(item._id,template)"><span class="deletebtn">Delete</span></td>
+            </tr>
+            <!-- <tr>
+               <td>2</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td><a href="javascript:void(0);">Cell</a></td>
+             </tr>
+             <tr>
+               <td>3</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td><a href="javascript:void(0);">Cell</a></td>
+             </tr>
+             <tr>
+               <td>4</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td><a href="javascript:void(0);">Cell</a></td>
+             </tr>
+             <tr>
+               <td>5</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td>Cell</td>
+               <td><a href="javascript:void(0);">Cell</a></td>
+             </tr>-->
+            </tbody>
+          </table>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</div>
+
+
+<app-adminfooter></app-adminfooter>
+<ng-template #template>
+  <div class="modal-body">
+    <h1>Do you want to delete?</h1>
+    <button type="button" class="btn btn-default" (click)="delete(selectedlessonid,templatecommon)" >Yes</button>
+    <button type="button" class="btn btn-primary" (click)="decline()" >No</button>
+  </div>
+</ng-template>
+
+<ng-template #templatecommon >
+  <div class="modal-body" >
+    <h1>{{message}}</h1>
+
+    </div>
+</ng-template>
+
+<ng-template #template3 >
+  <div class="modal-body">
+    <h1>Manage Files</h1>
+
+<div *ngIf="selectedtype=='Audio'" >
+  <div class="previewwrapper1"*ngFor="let item of lessonfilearray; let i = index">
+    <audio controls>
+      <source src="{{item.file}}" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <span class="previewname">{{getfilename(item.file)}}</span>
+    <div class="clearfix"></div>
+    <div class="previelink1_wrapper">
+    <span class="previelink1"> <i class="fa fa-trash-o" (click)="deletelessonfiles(item,selectedtype)"></i></span>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+
+</div>
+    <div *ngIf="selectedtype=='Video'" >
+      <div class="previewwrapper" *ngFor="let item of lessonfilearray; let i = index">
+        <div class="rwd-media"><video width="320" height="240" controls>
+          <source src="{{item.file}}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video></div>
+        <span class="previewname">{{getfilename(item.file)}}</span>
+        <div class="clearfix"></div>
+        <div class="previelink2_wrapper">
+          <span class="previelink2"> <i class="fa fa-trash-o" (click)="deletelessonfiles(item,selectedtype)"></i></span>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="selectedtype=='Images'" >
+      <div  class="previewwrapper" *ngFor="let item of lessonfilearray; let i = index">
+        <div class="imgframe-container">
+        <img src="{{item.file}}" />
+        </div>
+        <span class="previewname">{{getfilename(item.file)}}</span>
+        <div class="clearfix"></div>
+        <div class="previelink3_wrapper">
+          <span class="previelink3"> <i class="fa fa-trash-o" (click)="deletelessonfiles(item,selectedtype)"></i></span>
+          <div class="clearfix"></div>
+      </div>
+
+    </div>
+    </div>
+
+
+    <div *ngIf="selectedtype=='Files'" >
+      <span class="previewwrapper" *ngFor="let item of lessonfilearray; let i = index">
+        <span class="preview-{{getfiletype(item.file)}}"></span>
+        <span class="previewname">{{getfilename(item.file)}}</span>
+        <div class="clearfix"></div>
+        <div class="previelink_wrapper">
+          <span class="previelink">  <i class="fa fa-eye"></i></span>
+          <span class="previelink"> <i class="fa fa-trash-o" (click)="deletelessonfiles(item,selectedtype)"></i></span>
+          <div class="clearfix"></div>
+        </div>
+      </span>
+    </div>
+
+    <div *ngIf="selectedtype=='Text/Html'" >
+      <span class="previewwrapper" *ngFor="let item of lessonfilearray; let i = index">
+        <span class="preview-{{getfiletype(item.file)}}"></span>
+        <span class="previewname">{{getfilename(item.file)}}</span>
+        <div class="clearfix"></div>
+        <div class="previelink_wrapper">
+          <span class="previelink">  <i class="fa fa-eye"></i></span>
+          <span class="previelink"> <i class="fa fa-trash-o" (click)="deletelessonfiles(item,selectedtype)"></i></span>
+          <div class="clearfix"></div>
+        </div>
+      </span>
+    </div>
+
+    <div class="clearfix"></div>
+    <input  style="display: none" [attr.accept]=seltypes type="file" (change)="onFileChanged($event)" #fileInput1>
+    <!-- <input *ngIf="selectedtype=='audio' " style="display: none" accept=".mp3" type="file" (change)="onFileChanged($event)" #fileInput1>
+    <input *ngIf="selectedtype=='video' " style="display: none" accept=".mp4" type="file" (change)="onFileChanged($event)" #fileInput1>-->
+    <button  type="button" class="btn btn-primary previebtn" (click)="fileInput1.click()" >Upload</button>
+
+  </div>
+</ng-template>
+
+<ng-template #template4 >
+  <div class="modal-body">
+    <h1>Manage Html-Files</h1>
+    <p *ngIf="documentvalerror">Document is required..</p>
+    <!--<ck-editor name="editor1" [(ngModel)]="documentval"></ck-editor>-->
+    <ckeditor
+            [(ngModel)]="documentval"
+            [config]="{uiColor: '#99000'}"
+            [readonly]="false"
+            (change)="onChange($event)"
+            debounce="500">
+    </ckeditor>
+
+
+    <button type="button" class="btn btn-default" (click)="addcontent(templatecommon)" >Save</button>
+    <button type="button" class="btn btn-default" (click)="documentopen()" >Preview</button>
+  </div>
+  <div class="modal-body1" *ngIf="msg==true" >
+    <div class="textwrappernew"  [innerHtml]="documentval">
+    </div>
+  </div>
+</ng-template>
+
+<!--<ng-template #templatecommon>
+  <div class="modal-body">
+    <h1>{{message}}</h1>-->

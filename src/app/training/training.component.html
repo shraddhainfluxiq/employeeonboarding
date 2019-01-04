@@ -1,0 +1,354 @@
+<app-theader></app-theader>
+
+
+<div class="container-fluid training_top_banner">
+
+  <div class="training_top_banner_body">
+
+
+    <div class="training_top_banner_body_con">
+
+
+      <div class="training_top_banner_wrapper">
+
+
+
+        <div class="training_top_banner_text">
+
+
+          <h2>Lorem ipsum </h2>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco </p>
+
+
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+</div>
+
+
+<div class="container-fluid training_page_body" *ngIf="companynamevalues?.empcomp.length>0">
+
+  <div class="training_page_wrapper">
+
+
+    <div class="training_page_top">
+
+      <div class="training_page_top_left">
+
+        <div class="training_page_top_left_text">
+          <h2>Employee Onboarding Advance Courses</h2>
+
+        </div>
+
+      </div>
+      <div class="training_page_top_right">
+
+        <h2>You Have Completed 10 / 21 Lessons</h2>
+
+        <div class="tra_lesson_div">
+
+          <div class="tra_lesson_subdiv">
+            <div class="tra_lesson_inlinesubdiv" style="width: 10%;"></div>
+
+          </div>
+
+
+          <label>0% lessons completed</label>
+
+        </div>
+
+
+
+
+        <div class="clearfix"></div>
+      </div>
+
+
+      <div class="clearfix"></div>
+
+    </div>
+
+
+
+    <div class="training_contain">
+
+      <div class="col-md-4">
+        <h2>CATEGORIES</h2>
+        <ul>
+        <!--  <li><a href="javascript:void(0)" >Employee Onboarding Advance Courses</a></li>-->
+          <li  *ngFor="let item of categoryvalues; let i = index">
+            <a href="javascript:void(0)" (click)="getlessondetails(item._id)">{{item.catname}}
+            </a>
+          </li>
+
+        </ul>
+
+
+      </div>
+
+      <div class="col-md-8" >
+
+
+
+
+
+
+
+        <div class="panel-group" id="accordion">
+        <div *ngFor="let item of lessonvalues; let i=index">
+          <div class="panel panel-default" *ngIf="item.letype=='Video'">
+            <div class="panel-heading">
+              <h4 class="panel-title accordionh2">
+                <a class="accordion-toggle " data-toggle="collapse" data-parent="#accordion" href="#collapsev{{i}}">
+                 {{item.lename}}
+                </a>
+              </h4>
+              <!--<h2></h2>-->
+            </div>
+            <div id="collapsev{{i}}" [className]="i==0 ? 'panel-collapse' : 'panel-collapse collapse'">
+              <div class="panel-body">
+                <div  class="accordioncontain  accordioncontain2">
+
+                  <div class="accordion_text1">
+                 <!--   <h1></h1>-->
+
+                    <h2><span>{{item.description}}</span>
+                       </h2>
+                  <!--  <h3> </h3>-->
+                  </div>
+                  <div class="accordion_video" *ngFor="let files of item.lessonfiles; let f=index">
+
+                  <div class="videoWrapper">
+                    <video width="400" controls="video" class="vplayer" [attr.lid]="item._id" id="video{{files._id}}">
+                      <source src="{{files.file}}" type="video/mp4">
+                      Your browser does not support HTML5 video.
+                    </video>
+
+                    <!--<div class="videoWrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/g3-VxLQO7do?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>-->
+                  </div>
+                  </div>
+
+                  <div class="clearfix"></div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="panel panel-default" *ngIf="item.letype=='Text/Html'">
+            <div class="panel-heading">
+              <h4 class="panel-title accordionh2">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseg{{i}}">
+                  {{item.lename}}
+                </a>
+              </h4>
+            </div>
+            <div id="collapseg{{i}}" class="panel-collapse collapse">
+              <div class="panel-body">
+                <div  class="accordioncontain2">
+
+
+
+               <!--   <div class="accordion_banner1">
+
+                    <div class="accordion_banner1_text">
+
+
+                    </div>
+                  </div>-->
+
+
+                  <!--<div class="accordion_text2">
+
+
+                    <h4></h4>
+
+                  </div>-->
+
+                  <div class="accordion_text2">
+                    <h2 *ngIf="item.description!=null">{{item.description}}</h2>
+                    <div *ngIf="item.lessonfiles?.length>0" class="textwrappernew"  [innerHtml]="item.lessonfiles[0].file">
+                      <!--< width="400" controls="Text/Html" testhtml}}>-->
+                      <!--<source src="{{item.lessonfiles[0].file}}" type="Text/Html">-->
+
+                    </div>
+
+                    <!--<h2></h2>-->
+                    <span class="markasdone" *ngIf="item.lessonfiles?.length>0" (click)="markasdone(item._id,item.lessonfiles[0]._id)">Mark As Done</span>
+
+                  </div>
+                <!--  <div class="accordion_text3">
+
+                    <div class="accordion_text3_ultext">
+
+                    </div>
+
+                  </div>
+
+                  <div class="accordion_text2">
+
+                    <h2></h2>
+
+                  </div>
+
+
+                  <div class="accordion_text4">
+
+                    <div class="accordion_text4_ultext">
+                      <ul>
+                        <li> </li>
+                        <li> </li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                      </ul>
+                    </div>
+
+                  </div>-->
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="panel panel-default" *ngIf="item.letype=='Audio'">
+            <div class="panel-heading">
+              <h4 class="panel-title accordionh2">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapsea{{i}}">
+                  {{item.lename}}
+                </a>
+              </h4>
+            </div>
+           <!-- <div id="collapsea{{i}}" class="panel-collapse collapse">-->
+            <div id="collapsea{{i}}" [className]="i==0 ? 'panel-collapse active' : 'panel-collapse collapse'">
+              <div class="panel-body">
+
+
+                  <div  class="accordioncontain_text3">
+                    <div  class="accordioncontain_text3_wrapper">
+
+                      <!--<h2>Lorem ipsum dolor sit </h2>-->
+
+                      <h3><span>{{item.description}} </span> </h3>
+                      <!--<h3><span> {{item.lessonfiles}} {{item.lessonfiles.length}}  </span> </h3>-->
+
+
+                      <audio *ngFor="let files of item.lessonfiles; let f=index" controls="controls" id="audio_player" class="aplayer" [attr.lid]="item._id" id="audio{{files._id}}">
+                        <source src="{{files.file}}" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                      </audio>
+
+
+
+                     <!-- <img *ngFor="let files of item.lessonfiles;let f=index" controls="controls" id="immage_control">
+                      <source src="{{files.file}}" type="image/jpg">
+                    -->
+
+                      <audio controls="controls" id="text/html_type">
+                        <source src="track.ogg" type="audio/ogg" />
+                        <source src="track.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                      </audio>
+
+
+
+                     <!-- <a href="javascript:void(0)" class="trviewmore">View more</a>-->
+                      <div class="clearfix"></div>
+                    </div>
+
+                  </div>
+
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default" *ngIf="item.letype=='Images'">
+            <div class="panel-heading">
+              <h4 class="panel-title accordionh2">
+                <a class="accordion-toggle " data-toggle="collapse" data-parent="#accordion" href="#collapsei{{i}}">
+                  {{item.lename}}
+                </a>
+              </h4>
+            </div>
+            <div id="collapsei{{i}}" class="panel-collapse collapse in" [className]="i==0 ? 'panel-collapse' : 'panel-collapse collapse in'">
+              <div class="panel-body">
+                <div  class="accordioncontain  accordioncontain2">
+
+                  <div class="accordion_text1">
+                    <h2>{{item.description}}</h2>
+
+                  <!--  <h2><span></span> </h2>-->
+                 <!--   <h3></h3>-->
+                  </div>
+                  <div class="accordion_video" *ngFor="let files of item.lessonfiles; let f=index">
+
+                    <div class="imageWrappernew" (click)="openimagemodal(item._id,files._id,files.file,imagetemplate)">
+                      <img src="{{files.file}}" type="image/jpg">
+
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="previelink1_wrapper hide">
+                      <span class="previelink1"> <i class="fa fa-download"></i></span>
+                      <div class="clearfix"></div>
+
+                    </div>
+
+
+                  <div class="clearfix"></div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+        </div>
+      </div>
+
+
+
+
+      <div class="clearfix"></div>
+    </div>
+
+
+
+
+  </div>
+
+
+</div>
+
+</div>
+<div class="container-fluid training_page_body" *ngIf="companynamevalues?.empcomp.length==0">
+  <h2>No company added under this employee</h2>
+</div>
+<app-tfooter></app-tfooter>
+
+<ng-template #imagetemplate>
+  <div class="modal-body">
+    <div class="modalimgbox">
+    <img src="{{srcpath}}" type="image/jpg">
+    </div>
+  </div>
+
+</ng-template>

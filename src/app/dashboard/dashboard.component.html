@@ -1,0 +1,137 @@
+<app-adminheader></app-adminheader>
+
+
+<div class="page-wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header"><i class="fa fa-circle" aria-hidden="true"></i> Dashboard</h1>
+
+
+
+
+      <section class="content">
+        <div class="row">
+          <div class="col-lg-3 col-xs-6 dbadminbox">
+            <div class="small-box bg-gray" ui-sref="dashboard">
+              <div class="inner">
+                <h3>Dashboard</h3>
+              </div>
+              <div class="db_newicon">
+                <img src="assets/images/db_icon1.png" alt="#">
+              </div>
+              <a [routerLink]="['/']" ui-sref="index"  class="db_adminlink">More info </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-xs-6 dbadminbox" [routerLink]="['/manageadmin']" style="cursor: pointer">
+            <div class="small-box bg-gray" ui-sref="manage_admin ">
+              <div class="inner">
+                <h3>Manage Admin </h3>
+              </div>
+              <div class="db_newicon">
+                <img src="assets/images/db_icon9.png" alt="#">
+              </div>
+              <span class="db_adminlink">More info </span>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-3 col-xs-6 dbadminbox" [routerLink]="['/manageemployee']" style="cursor: pointer">
+            <div class="small-box bg-gray" ui-sref="admin-list">
+              <div class="inner">
+                <h3>Manage Employee</h3>
+              </div>
+              <div class="db_newicon">
+                <img src="assets/images/db_icon2.png" alt="#">
+              </div>
+              <span class="db_adminlink">More info </span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-xs-6 dbadminbox" [routerLink]="['/companylist']" style="cursor:pointer">
+            <div class="small-box bg-gray" ui-sref="Manage_company">
+              <div class="inner">
+                <h3>Manage Company</h3>
+              </div>
+              <div class="db_newicon">
+                <img src="assets/images/db_icon3.png" alt="#">
+              </div>
+              <a href="javascript:void(0);" class="db_adminlink">More info </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-xs-6 dbadminbox" >
+            <div class="small-box bg-gray" ui-sref="manage_onboarding_process" [routerLink]="['/categorylist']" style="cursor:pointer">
+              <div class="inner">
+                <h3> Manage Onboarding Process</h3>
+              </div>
+              <div class="db_newicon">
+                <img src="assets/images/db_icon4.png" alt="#">
+              </div>
+              <a href="javascript:void(0);" class="db_adminlink">More info </a>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-3 col-xs-6 dbadminbox">
+            <div class="small-box bg-gray" ui-sref="onboarding_report">
+              <div class="inner">
+                <h3>Onboarding Report</h3>
+              </div>
+              <div class="db_newicon">
+                <img src="assets/images/db_icon5.png" alt="#">
+              </div>
+              <a href="javascript:void(0);" class="db_adminlink">More info </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-xs-6 dbadminbox">
+            <div class="small-box bg-gray" ui-sref="documentlist({id:0})">
+              <div class="inner">
+                <h3>Manage Email</h3>
+              </div>
+              <div class="db_newicon">
+                <img src="assets/images/db_icon6.png" alt="#">
+              </div>
+              <a href="javascript:void(0);" class="db_adminlink">More info </a>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-lg-3 col-xs-6 dbadminbox" [routerLink]="['/myaccount']" style="cursor: pointer">
+            <div class="small-box bg-gray" ui-sref="my_account">
+              <div class="inner">
+                <h3> My Account</h3>
+              </div>
+              <div class="db_newicon">
+                <img src="assets/images/db_icon7.png" alt="#">
+              </div>
+              <span class="db_adminlink">More info </span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-xs-6 dbadminbox">
+            <div class="small-box bg-gray" ng-click="logout()">
+              <div class="inner">
+                <h3>log out</h3>
+              </div>
+              <div class="db_newicon">
+                <img src="assets/images/db_icon8.png" alt="#">
+              </div>
+              <a [routerLink]="['/login']" class="db_adminlink">More info </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </div>
+    <!-- /.col-lg-12 -->
+  </div>
+</div>
+
+
+<app-adminfooter></app-adminfooter>

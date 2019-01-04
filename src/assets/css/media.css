@@ -1,0 +1,374 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media(max-width:1660px) {
+
+    .training_top_banner_body{ background-position: 1% center;}
+
+    .training_top_banner_body_con{ background-position: 100% center;}
+
+}
+
+@media(max-width:1540px) {
+
+    .accordioncontain_text3_wrapper{ width: 52%;}
+
+    .training-footer-wrapper{ width: 90%; margin: 0 auto;}
+    .training-header-wrapper{ width: 90%; margin: 0 auto;}
+
+    .training_top_banner_wrapper{ width: 90%;}
+
+    .training_top_banner_body_con {
+        background-position: 140% center;
+    }
+
+
+    .training_page_wrapper{ width: 90%;}
+
+
+    .training_page_top_left{ width: 50%;}
+    .training_page_top_right{ width: 50%;}
+
+    .training_page_top_left_text h2{ font-size: 26px;}
+
+    .training_page_top_right h2{ width: 50%; font-size: 20px;}
+
+    .tra_lesson_div {
+        width: 41%;
+        float: right;
+        margin-top: 12px;
+        margin-right: 2%;
+    }
+
+    .training_contain .col-md-8 {   width:68%; }
+
+    .training_contain .col-md-4{ width: 31%;}
+
+    .accordion_video{ width: 55%; }
+
+
+    .accordion_text1{ width: 42%; }
+
+    .accordion_text3 {height: 320px;
+        position: relative;
+        padding-left: 430px;
+        background-size: 430px;
+    }
+
+    .accordioncontain_text3{ padding-left:450px;}
+}
+
+@media(max-width:1500px) {
+    .accordioncontain_text3_wrapper{ width: 52%;}
+    .accordion_text3 .accordion_text3_ultext ul li{ font-size: 16px;}
+.training_top_banner_text{ width: 700px;}
+
+    .training_page_top_right h2{ font-size: 15px;}
+
+    .training_page_top_left_text h2 {
+        font-size: 24px;
+    }
+
+
+    .accordioncontain_text3{      padding-left: 440px;}
+}
+
+@media(max-width:1440px) {
+
+    .accordioncontain_text3_wrapper{ width: 50%;}
+    .accordion_banner1{ background-position: 40% top;}
+
+    .accordion_banner1_text {
+        width: 390px;}
+
+    .accordion_banner1_text h4{ font-size: 18px;}
+
+    .accordion_banner1_text h5 {font-size: 16px;
+        line-height: 24px;}
+
+    .accordion_text3 {
+        height: 420px;}
+
+}
+
+@media(max-width:1380px) {
+    .accordioncontain_text3_wrapper{ width:45%;}
+    .accordion_text4{ background-position: 26% top;}
+
+   /* .accordioncontain_text3 {
+        background-position: -160px top;
+        padding-left: 228px;
+    }*/
+}
+
+@media(max-width:1300px) {
+
+    .accordioncontain_text3_wrapper{ width:44%;}
+    .training_top_banner_body_con {
+        background-position: 190% center;
+    }
+
+    .training_top_banner_text {
+        width: 620px;
+    }
+
+    .training_top_banner_text h2{ font-size: 50px;}
+}
+
+@media(max-width:1260px) {
+    .accordion_video {
+        width: 100%; float: none;
+    }
+
+    .accordion_text1 {
+        width: 100%; float: none; text-align: center; padding-bottom: 25px;
+    }
+
+}
+
+@media(max-width:1220px) {
+    .accordion_text3 {
+        height: 510px;
+    }
+}
+
+@media(max-width:1199px) {
+
+    .accordioncontain2 .accordion_text1 { text-align: center;}
+
+
+
+    .accordioncontain_text3_wrapper{ width:100%;}
+    .accordioncontain_text3 {
+        background-position: left top;
+        padding-left: 0;
+        background-size: 143%;
+        height: auto;
+        padding-top: 99%;
+    }
+    .accordioncontain_text3_wrapper {
+        position: inherit;
+        transform: translateY(0%);
+        top: 0%;
+        padding: 26px;
+        text-align: center;
+    }
+
+    .trviewmore{ float: none; margin: 15px auto;     margin-bottom: 0px}
+
+
+    .accordion_text4 {
+        background-position: right top;
+        background-size: 150%; height: auto;     padding-top: 56%;
+    }
+
+    .accordion_text4 .accordion_text4_ultext ul li {
+        font-size: 18px;
+        background-position: center top;
+        padding-top: 23px;
+        margin-bottom: 20px; padding-left: 0px; text-align: center;
+    }
+
+
+    .accordion_text4 .accordion_text4_ultext {
+        position: inherit;
+        transform: translateY(0%);
+        top: 0%;
+        width: auto;
+        padding: 0 26px 10px 26px;
+    }
+
+
+    .accordion_text3{ height: auto; background-position: center top; background-size: auto; padding-top: 400px;     padding-left: 0px;
+        text-align: center;}
+
+    .accordion_text3 .accordion_text3_ultext ul li {
+        font-size: 18px;
+        background-position: center top;
+        padding-top: 23px;
+        margin-bottom: 20px; padding-left: 0px;
+    }
+
+
+    .accordion_text3 .accordion_text3_ultext {
+        position: inherit;
+        transform: translateY(0%);
+        top: 0%;
+        width: auto;
+        padding: 0 26px 10px 26px;
+    }
+
+
+    .training_contain .col-md-8 {
+        width: 100%; margin-top: 25px; float: none;
+    }
+
+    .training_contain .col-md-4 {
+        width: 100%; margin-top: 25px; float: none;
+    }
+
+    .training_page_top_left_text{ height: auto;}
+    .training_page_top_left{ background: none; height: auto; width: 100%; text-align: center; height: auto;     padding-right: 0px;}
+
+    .training_page_top_left_text h2{ font-size: 30px; line-height: 30px;  padding:25px 10px;}
+
+
+
+    .training_page_top_right h2 { width: 100%;
+        text-align: center;
+        float: none;
+        padding: 25px 0;
+        font-size: 24px;
+    }
+
+    .training_page_top_right{ height: auto; width: 100%;  padding: 0 10px;padding-bottom: 25px;}
+    .training_top_banner_body_con {
+        background-position: top center;
+        background-size: 1199px;     top: 0px;
+        height:auto;     position: inherit; margin-top: -28px;
+
+        padding-bottom: 20px;
+        padding-top: 396px;
+    }
+
+    .training_top_banner_body{ background-image: none;}
+
+    .training_top_banner_text {
+        width: 100%;
+        text-align: center;
+        position: inherit;     top: 0;
+        transform: translateY(0%);
+    }
+
+    .training_top_banner{ height: auto; margin-top: 25px;}
+
+
+    .tra_lesson_div{ width: 300px; float: none; margin: 0 auto;}
+
+    .tra_lesson_div label{ text-align: center;}
+}
+
+@media(max-width:991px) {
+
+    .accordion_text2{ text-align: center;}
+
+    .accordion_banner1 {
+        background-position: right top;
+        background-size: 180%;
+        padding-top: 61%; background-color: #c4cfd6;
+    }
+
+
+    .accordion_banner1_text {
+        width: 100%;  text-align: center;
+        position: inherit;
+        transform: translateY(0%);
+        top: 0;
+    }
+
+    .accordion_banner1{ height: auto;}
+    .dbadminbox{width: 32.3%;}
+    .newblock1 .search1 { width: 230px; }
+
+    .formsection{ width: 80%;}
+
+
+    .training-footer-wrapper .training_footer_logo{ display: block; float: none; width: 290px; margin: 0 auto;}
+
+    .training-footer-wrapper .training_footer_text{ width: 100%; float: none; text-align: center; padding-top: 20px;}
+
+    .training-header-wrapper .training_header_logo{ display: block; float: none; width: 290px; margin: 0 auto;}
+
+    .training_header_text{ width: 315px; float: none; margin: 0 auto; margin-top: 20px;}
+    .accordioncontain2  .accordion_video{ width: 100%; margin:0 auto; margin-bottom: 10px;}
+
+    .imageWrappernew{ height: auto;}
+
+    .imageWrappernew img{ width: 100%; position: inherit; left: 0%; top: 0%; transform: translate(0%, 0%); }
+    }
+
+@media(max-width:800px) {
+    .dbadminbox{width:49%;}
+}
+
+@media(max-width:767px) {
+
+    .formsection{ width: 90%;}
+
+    .navbar-nav {
+        margin: 0;
+    }
+
+    .sidebar-nav  .dropdown-menu { left: 0!important;}
+
+    .sidebar ul li{ background: #e29025;}
+
+    .sidebar-nav .dropdown-menu li{background: #434a56!important;  }
+
+    .navbar-top-links li {
+        display: inline-block;
+        float: right;
+    }
+
+    .navbar-top-links {
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .navbar-toggle{ margin-top: 24px;}
+
+    .navbar-default .navbar-toggle {
+        border-color: #e29025; background: #f1b512;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+    .navbar-top-links .dropdown-menu{ right: 0px!important;}
+
+    .navbar-top-links .dropdown-menu li{ display: block!important; float: none!important;}
+}
+
+@media(max-width:600px) {
+
+    .accordion_text3 {
+        height: auto;
+        background-position: center top;
+        background-size: 100%;
+        padding-top: 70%;
+        padding-left: 0px;
+        text-align: center;
+    }
+}
+
+@media(max-width:580px) {
+
+    .training_top_banner_body_con {
+        background-position: 64% top;}
+
+}
+
+@media(max-width:480px) {
+    .newblock1{ text-align: center;}
+.newblock1 .search1{ float: none; margin: 0 auto;}
+
+    .newblock1 .addfrinderbtn{ float: none; margin: 0 auto; margin-top: 15px; display: inline-block; width: auto;}
+
+    .tra_lesson_div{ width: 100%; float: none; margin: 0 auto;}
+
+    .accordion_banner1 { padding-top: 62%;  }
+}
+
+@media(max-width:380px) {
+    .dbadminbox{width:100%; margin: 5px auto;}
+
+
+    .training_header_text{ width:100%; float: none; margin: 0 auto; margin-top: 20px;}
+
+    .training_header_text .my_account_link{ float: none; margin: 0 auto;     display: block;}
+    .training_header_text .logout_link{ float: none; margin: 0 auto; margin-top: 10px;     display: block;}
+
+    .training-footer-wrapper .training_footer_logo{ max-width: 100%;}
+    .training-header-wrapper .training_header_logo{ max-width: 100%;}
+}

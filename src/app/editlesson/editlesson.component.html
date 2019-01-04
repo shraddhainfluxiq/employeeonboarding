@@ -1,0 +1,105 @@
+
+
+<app-adminheader></app-adminheader>
+
+<div class="page-wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="content_header_block">
+        <ol class="breadcrumb">
+          <li><a ui-sref="dashboard"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+          <li><a href="javascript:void(0)" class="active">Manage Category </a></li>
+          <li><a href="javascript:void(0)" class="active">Add Manage Admin </a></li>
+        </ol>
+        <div class="clearfix"></div>
+      </div>
+      <h1 class="page-header"><i class="fa fa-circle" aria-hidden="true"></i>  Manage Category</h1>
+      <div class="clearfix"></div>
+      <div class="admintable">
+        <h3> Manage Lesson</h3>
+        <div class="formsection">
+          <h6 class="form-grouptext"> All the fields marked "*" are required fields and must be filled.</h6>
+
+          <form id="add_Admin" name="add_Admin" role="form" novalidate [formGroup]="dataForm" (ngSubmit)="dosubmit(dataForm.value)" > &lt;!&ndash;novalidate [formGroup]="dataForm" (ngSubmit)="dosubmit(dataForm.value)"&ndash;&gt;
+            <div class="box-body">
+              <div class="form-group">
+                <label >Lesson Name<span>*</span> :</label>
+                <input type="text" class="form-control" placeholder="lesson Name"[formControl]="dataForm.controls['lename']">
+                <span *ngIf="!dataForm.controls['lename'].valid && dataForm.controls['lename'].touched">Lesson name can not be blank</span>
+              </div>
+
+
+              <div class="box-body">
+                <div class="form-group">
+                  <label >Lesson Type<span>*</span> :</label>
+                  <select class="form-control" [formControl]="dataForm.controls['letype']">
+                    <option selected="selected" value="">Select any Category</option>
+                    <option value="Text/Html">Text/Html</option>
+                    <option value="Audio">Audio</option>
+                    <option value="Images">Images</option>
+                    <option value="Video">Video</option>
+                    <option value="Quiz/Questionaries">Quiz/Questionaries</option>
+                  </select>
+                  <span *ngIf="!dataForm.controls['letype'].valid && dataForm.controls['letype'].touched">Lesson type field can not be blank</span>
+                </div>
+
+                <div class="form-group" [ngClass]="dataForm.controls['letype'].value == 'Text/Html' || dataForm.controls['letype'].value == 'Audio' || dataForm.controls['letype'].value == 'Images' || dataForm.controls['letype'].value == 'Video' ? 'showfilearea' : 'hidefilearea'">
+                  <label >Upload File<span>*</span> :</label>
+                  <input type="file" accept=".txt,.html" (change)="onFileChanged($event)" #htmlInput>
+                  <input type="file" accept="audio/*" (change)="onFileChanged($event)" #audioInput>
+                  <input  type="file" accept="image/*" (change)="onFileChanged($event)" #imageInput>
+                  <input  type="file" accept="video/*" (change)="onFileChanged($event)" #videoInput>
+                  <div class="clear"></div>
+                  <span *ngIf="uploaderror">{{uploaderror}}</span>
+                  <img src="{{uploadfile}}" *ngIf="uploadfile" style="max-height: 100px; max-width: 100px;">
+                </div>
+                &lt;!&ndash;<div class="form-group email_div">
+                  <label >Added ON<span>*</span> :</label>
+                  <input type="text" class="form-control" placeholder="" [formControl]="dataForm.controls['addon']">
+                  <span *ngIf="!dataForm.controls['addon'].valid && dataForm.controls['addon'].touched ">please give proper added on date</span>
+                </div>&ndash;&gt;
+
+                <div class="box-body">
+                  <div class="form-group">
+                    <label >Description<span>*</span> :</label>
+                    <textarea class="form-control2" placeholder="Description"[formControl]="dataForm.controls['description']"></textarea>
+                    <span *ngIf="!dataForm.controls['description'].valid && dataForm.controls['description'].touched">Description name can not be blank..</span>
+                  </div>
+                  <div class="box-body">
+                    <div class="form-group">
+                      <label >Category Name<span>*</span> :</label>
+                      <select multiple="multiple"
+                              [formControl]="dataForm.controls['categories']">
+                        <option value="select">Select Category(s)</option>
+                        <option [value]="category._id" *ngFor="let category of categorylist">
+                          {{category.catname}}</option>
+                      </select>
+                    </div>
+                    <div class="box-body">
+                      <div class="form-group">
+                        <label >Active?<span>*</span> :</label>
+                        <input type="checkbox" class="check1" [formControl]="dataForm.controls['status']">
+                        <span *ngIf="!dataForm.controls['status'].valid && dataForm.controls['status'].touched"></span>
+                      </div>
+                      &lt;!&ndash;<div class="box-body">
+                        <div class="form-group">
+                          <label >Status<span>*</span> :</label>
+                          <input type="check-box" class="form-control" >
+                        </div>&ndash;&gt;
+                      <div class="box-footer" style="background:none; height:auto; padding-bottom:0px; padding-top:0px;">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+&ndash;&gt;
+
